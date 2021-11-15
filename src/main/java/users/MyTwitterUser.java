@@ -10,17 +10,17 @@ public class MyTwitterUser implements User{
         this.twitterUser = twitterUser;
     }
     @Override
-    public String GetEmail() {
+    public String getEmail() {
         return this.twitterUser.getUserMail();
     }
 
     @Override
-    public String GetCountry() {
+    public String getCountry() {
         return this.twitterUser.getCountry();
     }
 
     @Override
-    public String GetLastActiveTime() {
+    public String getLastActiveTime() {
         return this.twitterUser.getLastActiveTime();
     }
 }

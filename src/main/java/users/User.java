@@ -1,7 +1,7 @@
 package users;
 
 public interface User {
-    String GetEmail();
-    String GetCountry();
-    String GetLastActiveTime();
+    String getEmail();
+    String getCountry();
+    String getLastActiveTime();
 }
